@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
 
 // servicios
 import { ChatService } from './services/chat.service';
+import { LoginComponent } from './components/login/login.component';
 
 
 
@@ -21,6 +22,7 @@ import { ChatService } from './services/chat.service';
   declarations: [
     AppComponent,
     ChatComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
